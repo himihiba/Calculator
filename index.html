@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="Calculator.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bigint-crypto-utils@1.0.0/dist/bigint-crypto-utils.js"></script>
+    <title>الة حاسبة</title>
+</head>
+<body>
+  <section class="container">
+    <div class="calculater">
+        <div class="result"></div>
+        <div class="numEtoper">
+            <button onclick="
+              display('1');
+              //calculation('1');
+              //console.log('it work');
+             ">1</button>
+            <button onclick="
+             display('2');
+             //calculation('2');
+             ">2</button>
+            <button onclick="
+             display('3');
+             //calculation('3');
+             ">3</button>
+            <button class="orng" onclick="
+             display('+');
+             //calculation('+');
+             ">+</button>
+            <button onclick="
+             display('4');
+             //calculation('4');
+             ">4</button>
+            <button onclick="
+             display('5');
+             //calculation('5');
+             ">5</button>
+            <button onclick="
+             display('6');
+             //calculation('6');
+             ">6</button>
+            <button class="orng" onclick="
+             display('-');
+             //calculation('-');
+             ">-</button>
+            <button onclick="
+             display('7');
+             //calculation('7');
+             ">7</button>
+            <button onclick="
+             display('8');
+             //calculation('8');
+             ">8</button>
+            <button onclick="
+             display('9');
+             //calculation('9');
+             ">9</button>
+            <button class="orng" onclick="
+             display('/');
+             //calculation('/');
+             ">/</button>
+            <button onclick="
+             display('0');
+             //calculation('0');
+             ">0</button>
+            <button class="orng"
+              onclick="
+              display('.');
+              //calculation('.');
+             ">.</button>
+            <button class="orng" onclick="
+             display('*');
+             //calculation('*');
+             ">x</button>
+            <button class="orng" onclick="
+             display('cos');
+             //calculation('*');
+             ">cos</button>
+            <button class="orng" onclick="
+             display('sin');
+             //calculation('*');
+             ">sin</button>
+            <button class="orng" onclick="
+             display('tan');
+             //calculation('*');
+             ">tan</button>
+            <button class="orng" onclick="
+             display('&lpar;');
+             //calculation('*');
+             ">&lpar;</button>
+            <button class="orng" onclick="
+             display('&rpar;');
+             //calculation('*');
+             ">&rpar;</button>
+            <button class="orng" onclick="
+             display('^');
+             //calculation('*');
+             ">^</button>
+            <button class="orng" onclick="
+             display('&radic;');
+             //calculation('*');
+             ">&radic;</button>
+            <button class="orng" onclick="
+               //display('=');
+               evaluation();
+               ">=</button>
+            <button  class="orng" onclick="
+             resut() ;
+             ">C</button>
+            <button class="orng" onclick="
+             deleting();
+             ">DEL</button>
+        </div>
+    </div>
+  </section>
+</body>
+</html>
